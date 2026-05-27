@@ -48,3 +48,8 @@ This project was created strictly for educational and ethical cybersecurity lear
 <img width="737" height="461" alt="image" src="https://github.com/user-attachments/assets/ead56669-f2af-4fd1-990b-df1fb71206bf" />
 <img width="602" height="328" alt="image" src="https://github.com/user-attachments/assets/ece8bcc0-42dd-4669-b13d-e768b678815a" />
 <img width="537" height="179" alt="image" src="https://github.com/user-attachments/assets/7289ee0d-3840-427a-93f8-2de33b5449cc" />
+
+- phising attack simulation
+<img width="563" height="290" alt="image" src="https://github.com/user-attachments/assets/2447031a-3372-4e22-81dc-4f0b51f2672a" />
+<img width="515" height="319" alt="image" src="https://github.com/user-attachments/assets/272d9bca-1f37-4083-b366-4036b8328043" />
+
