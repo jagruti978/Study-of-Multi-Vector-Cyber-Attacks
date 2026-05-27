@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", monospace;
+}
+
+body {
+  height: 100vh;
+  background: black;
+  overflow: hidden;
+}
+
+/* Matrix Canvas */
+#matrix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* Login Box */
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.85);
+  padding: 30px;
+  width: 320px;
+  text-align: center;
+  border: 1px solid #00ffcc;
+  box-shadow: 0 0 25px #00ffcc;
+}
+
+.login-box h2 {
+  color: #00ffcc;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  background: black;
+  border: 1px solid #00ffcc;
+  color: #00ffcc;
+  outline: none;
+}
+
+.login-box input::placeholder {
+  color: #00ffcc88;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: #00ffcc;
+  color: black;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-box button:hover {
+  background: black;
+  color: #00ffcc;
+  border: 1px solid #00ffcc;
+  box-shadow: 0 0 15px #00ffcc;
+}
+
+#msg {
+  margin-top: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="matrix"></canvas>
+<div class="login-box">
+  <h2 id="welcome"></h2>
+  <p id="alertMsg"></p>
+</div>
+
+<script src="script.js"></script>
+<script>
+  const user = localStorage.getItem("user");
+  const attack = localStorage.getItem("attack");
+
+  const welcome = document.getElementById("welcome");
+  const alertMsg = document.getElementById("alertMsg");
+
+  welcome.innerHTML = `WELCOME ${user}`;
+
+  if (attack === "true") {
+    alertMsg.style.color = "orange";
+    alertMsg.innerHTML =
+      "Suspicious SQL Injection Activity Detected<br>Session is being monitored";
+  } else {
+    alertMsg.style.color = "#00ffcc";
+    alertMsg.innerHTML =
+      "Login successfully <br>No malicious activity detected";
+  }
+</script>
+
+<div>
+    <a href="index.html" style="color:#00ffcc; font-size:16px;" >Logout</a>
+</div>
+
+</body>
+</html>
